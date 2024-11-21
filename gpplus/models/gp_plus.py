@@ -33,6 +33,9 @@ from torch.nn.parameter import Parameter
 
 from gpplus import kernels
 from gpplus.models.gpregression import GPR
+from gpplus.models.nn import (FFNN, FFNN_as_Mean, Linear_class, Linear_MAP,
+                              Linear_VAE, LinearMean_with_prior,
+                              LinearVariational, Variational_Encoder)
 from gpplus.optim import (fit_model_continuation, fit_model_scipy,
                           fit_model_torch)
 from gpplus.preprocessing import setlevels
